@@ -1,4 +1,4 @@
-#Plasmid Design Tool
+*Plasmid Design Tool*
 
 Overview:
 
@@ -54,26 +54,24 @@ How to Run:
 2. Run automated tests:  chmod +x test.sh
 ./test.sh
 
+The test script verifies:  Successful removal of the EcoRI restriction site
 
-The test script verifies:
-
-Successful removal of the EcoRI restriction site
 -------------------------------------------------------------------------------------------------------------------------------------------
 File Structure:
 
-├── Design.txt           # Design specification
+├── Design.txt                          # Design specification
 
-├── Input.fa             # Input DNA sequence
+├── Input.fa                              # Input DNA sequence
 
-├── markers.tab          # Marker dictionary
+├── Output.fa                    # Sample Output files
 
-├── plasmid_builder.py   # Main plasmid design script
+└── README.md                          # Project documentation
 
-├── test.sh              # Automated test script
+├── markers.tab                       # Marker dictionary
 
-├── Output.fa          # Sample Output files
+├── plasmid_builder.py               # Main plasmid design script
 
-└── README.md            # Project documentation
+├── test.sh                          # Automated test script
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
