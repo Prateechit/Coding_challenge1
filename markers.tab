@@ -1,0 +1,15 @@
+# Restriction enzyme recognition sites
+EcoRI_site, GAATTC
+BamHI_site, GGATCC
+HindIII_site, AAGCTT
+PstI_site, CTGCAG
+KpnI_site, GGTACC
+SacI_site, GAGCTC
+SalI_site, GTCGAC
+XbaI_site, TCTAGA
+SmaI_site, CCCGGG
+
+# Selection markers (dummy sequences for completeness)
+AmpR_gene, AMPICILLIN_RESISTANCE_GENE
+KanR_gene, KANAMYCIN_RESISTANCE_GENE
+TetR_gene, TETRACYCLINE_RESISTANCE_GENE
