@@ -3,7 +3,7 @@
 Overview:
 
 This repository contains a Python-based tool to design plasmid DNA sequences based on user-defined specifications. The tool modifies an input DNA sequence by removing specified restriction enzyme sites and ensuring required genetic markers, producing a final plasmid sequence compatible with bacterial replication.
-This project was developed as part of a coding challenge focused on bioinformatics sequence manipulation, robustness, and reproducibility.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Features:
 
