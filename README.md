@@ -1,4 +1,4 @@
-**Plasmid Design Tool**
+#Plasmid Design Tool
 
 Overview:
 
@@ -49,40 +49,35 @@ Output.fa
 
 How to Run:
 
-1. Run the plasmid builder: python plasmid_builder.py
+1. Run the plasmid builder:  python plasmid_builder.py
 
-2. Run automated tests
-chmod +x test.sh
+2. Run automated tests:  chmod +x test.sh
 ./test.sh
 
 
 The test script verifies:
 
-Output file generation
-
 Successful removal of the EcoRI restriction site
 -------------------------------------------------------------------------------------------------------------------------------------------
-File Structure
-.
-├── plasmid_builder.py   # Main plasmid design script
+File Structure:
+
 ├── Design.txt           # Design specification
+
 ├── Input.fa             # Input DNA sequence
+
 ├── markers.tab          # Marker dictionary
+
+├── plasmid_builder.py   # Main plasmid design script
+
 ├── test.sh              # Automated test script
-├── .gitignore           # Ignored generated files
+
+├── Output.fa          # Sample Output files
+
 └── README.md            # Project documentation
 
-Assumptions & Design Choices
 
-The input plasmid (pUC19) already contains a functional origin of replication.
-
-Marker and restriction site definitions are provided via markers.tab.
-
-Missing markers or enzymes are safely ignored without crashing.
-
-Generated output files are not committed to GitHub.
-
-Testing
+------------------------------------------------------------------------------------------------------------------------------------------
+Testing:
 
 The repository includes a shell-based test (test.sh) that automatically validates:
 
@@ -93,3 +88,4 @@ Removal of the EcoRI recognition sequence (GAATTC)
 Author
 
 Prateechi Tulsyan
+2023BB11093
