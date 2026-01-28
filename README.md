@@ -33,39 +33,25 @@ For testing, the pUC19 plasmid sequence is used.
 
 Design specification file defining the desired plasmid configuration.
 
-Example:
-
-Multiple_Cloning_Site1, EcoRI
-Antibiotic_marker1, AmpR
-# End of File
-
 3. markers.tab
 
 Dictionary mapping marker names to recognition sequences or roles.
 
-Example:
-
-EcoRI_site, GAATTC
-BamHI_site, GGATCC
-AmpR_gene, AMPICILLIN_RESISTANCE_GENE
-
 Output
 Output.fa
 
-A FASTA file containing the final plasmid DNA sequence after:
+> A FASTA file containing the final plasmid DNA sequence after:
 
-Removal of specified restriction sites (e.g., EcoRI)
+> Removal of specified restriction sites (e.g., EcoRI)
 
-Retention or addition of required markers
+> Retention or addition of required markers
+---------------------------------------------------------------------------------------------------------------------------------
 
-Note: Output.fa is a generated file and is intentionally excluded from version control.
-It can be reproduced by running the script.
+How to Run:
 
-How to Run
-Run the plasmid builder
-python plasmid_builder.py
+1. Run the plasmid builder: python plasmid_builder.py
 
-Run automated tests
+2. Run automated tests
 chmod +x test.sh
 ./test.sh
 
@@ -75,7 +61,7 @@ The test script verifies:
 Output file generation
 
 Successful removal of the EcoRI restriction site
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 File Structure
 .
 ├── plasmid_builder.py   # Main plasmid design script
