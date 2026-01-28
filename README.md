@@ -7,22 +7,22 @@ This project was developed as part of a coding challenge focused on bioinformati
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Features:
 
-Reads plasmid DNA sequence from a FASTA file
+1. Reads plasmid DNA sequence from a FASTA file
 
-Parses a design specification file to determine:
+2. Parses a design specification file to determine:
 
-Restriction enzyme sites to remove
+> Restriction enzyme sites to remove
 
-Genetic markers to ensure
+> Genetic markers to ensure
 
-Uses a marker dictionary file for enzyme recognition sites and markers
+> Uses a marker dictionary file for enzyme recognition sites and markers
 
-Safely handles missing or undefined markers
+3. Safely handles missing or undefined markers
 
-Outputs a valid FASTA file of the final plasmid sequence
+4. Outputs a valid FASTA file of the final plasmid sequence
 
-Includes an automated test script to verify correctness
-
+5. Includes an automated test script to verify correctness
+------------------------------------------------------------------------------------------------------------------------------------------
 Input Files
 1. Input.fa
 
